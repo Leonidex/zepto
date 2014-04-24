@@ -1,0 +1,99 @@
+*
+{
+	/* Unselectable site */
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+}
+
+/* HomePage */
+#hebrewSpan
+{
+	float: right;
+	direction: rtl;
+	font-size: 12px;
+}
+
+/* User SignUp */
+.inputHolder
+{
+	margin: 5px;
+}
+
+/* Cars Select */
+#carsList
+{
+	float: left;
+}
+
+.clicked
+{
+	border: 4px outset teal;
+	box-sizing: border-box;
+}
+
+.disabledLinks
+{
+	background-color: gray;
+	pointer-events: none;
+	cursor: no-drop;
+}
+
+/* Price Calculation */
+#directionsPanel
+{
+	clear: left;
+	float: left;
+	width: 40%;
+}
+
+#costDiv
+{
+	margin: 20px;
+	float :right;
+	width: 50%;
+}
+
+#cost
+{
+	display: block;
+}
+
+#popup
+{
+	width: 80%;
+	margin: auto;
+}
+
+/* Global Media Queries */
+@media screen and (min-width: 1201px)
+{
+	#logo
+	{
+		width: 22%;
+	}
+}
+
+@media screen and (max-width: 300px) 
+{
+	#logo
+	{
+		width: 86%;
+	}
+}
+
+@media handheld and (orientation:portrait)
+{
+	#logo
+	{
+		width: auto;
+	}
+}
+
+@media handheld and (orientation:landscape)
+{
+	#logo
+	{
+		width: 30%;
+	}
+}
